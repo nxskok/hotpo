@@ -10,6 +10,6 @@ Description: The hotpo package provides functions for calculating and investigat
   plus one (if previous term odd). The sequence ends when it reaches 1 (at which point it would 
   go into the infinite loop 4, 2, 1, 4, 2, 1,...).
 
-License: What license is it under?
+License: What license is it under? Dunno.
 URL: http://github.com/nxskok/hotpo
 BugReports: http://github.com/nxskok/hotpo/issues
