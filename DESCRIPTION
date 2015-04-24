@@ -1,9 +1,15 @@
 Package: hotpo
 Type: Package
-Title: What the package does (short line)
+Title: A package for calculating and investigating the Collatz sequence.
 Version: 1.0
 Date: 2015-04-24
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Author: Ken Butler
+Maintainer: butler@utsc.utoronto.ca
+Description: The hotpo package provides functions for calculating and investigating the Collatz sequence, 
+  where each term is half the previous one (if previous term even) or three times the previous term
+  plus one (if previous term odd). The sequence ends when it reaches 1 (at which point it would 
+  go into the infinite loop 4, 2, 1, 4, 2, 1,...).
+
 License: What license is it under?
+URL: http://github.com/nxskok/hotpo
+BugReports: http://github.com/nxskok/hotpo/issues
