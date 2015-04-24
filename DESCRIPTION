@@ -4,7 +4,8 @@ Title: A package for calculating and investigating the Collatz sequence.
 Version: 1.0
 Date: 2015-04-24
 Author: Ken Butler
-Maintainer: butler@utsc.utoronto.ca
+Maintainer: Ken Butler <butler@utsc.utoronto.ca>
+Authors@R: person("Ken", "Butler",email="butler@utsc.utoronto.ca",role=c("aut","cre"))
 Description: The hotpo package provides functions for calculating and investigating the Collatz sequence, 
   where each term is half the previous one (if previous term even) or three times the previous term
   plus one (if previous term odd). The sequence ends when it reaches 1 (at which point it would 
