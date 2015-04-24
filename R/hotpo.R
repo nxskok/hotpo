@@ -1,0 +1,18 @@
+#' hotpo: A package for calculating and investigating the Collatz sequence.
+#' 
+#' The hotpo package provides functions for calculating and investigating the Collatz sequence, 
+#' where each term is half the previous one (if previous term even) or three times the previous term
+#' plus one (if previous term odd). The sequence ends when it reaches 1 (at which point it would 
+#' go into the infinite loop 4, 2, 1, 4, 2, 1,...).
+#' 
+#' @section \code{hotpo} functions: 
+#' \enumerate{
+#'  \item \code{hotpo1}: calculate next term in sequence
+#'  \item \code{hotpo_seq}: calculate whole sequence
+#'  \item \code{hotpo_len}: length of sequence
+#'  \item \code{hotpo_hi}: maximum term of sequence
+#' }
+#' 
+#' @docType package
+#' @name hotpo
+NULL
